@@ -4,6 +4,14 @@ var http    = require('http');
 var https   = require('https');
 var request = require('request');
 
+// apiUrl  : API연결 URL 
+// naverId : 자기 블로그 아이디
+// apikey  : API연결 암호
+
+// title : 글제목
+// description : 글내용
+// categories : 카테고리
+
 var apiUrl  = 'https://api.blog.naver.com/xmlrpc';  // 블로그 api url
 var naverId = "test";                             // 네이버 아이디
 var apiKey  = "블로그 api암호";   // 블로그 api 암호
